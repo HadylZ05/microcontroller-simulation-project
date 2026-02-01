@@ -1,6 +1,7 @@
 # microcontroller-project-(Proteus Simulation)
 
-##  Overview
+##  Overview 
+
 This project implements a **keypad-controlled user interface** using the **STM32F103C8 (Blue Pill)** microcontroller.  
 A **4×3 matrix keypad**, **16×2 character LCD**, and **LED** are interfaced using GPIO and controlled through embedded C code developed with **STM32CubeIDE**.
 
@@ -9,6 +10,7 @@ The system was **designed and validated entirely using Proteus 8 Professional**,
 ---
 
 ##  Project Features
+
 - STM32F103C8 (ARM Cortex-M3) microcontroller
 - 16×2 LCD interfaced in **4-bit mode**
 - 4×3 matrix keypad with **software debounce**
@@ -20,9 +22,6 @@ The system was **designed and validated entirely using Proteus 8 Professional**,
 
 ##  System Architecture
 
-::contentReference[oaicite:0]{index=0}
-
-
 **Peripherals Used**
 - LCD (GPIO – 4-bit mode)
 - Matrix Keypad (row/column scanning)
@@ -31,9 +30,6 @@ The system was **designed and validated entirely using Proteus 8 Professional**,
 ---
 
 ##  System Logic
-
-::contentReference[oaicite:1]{index=1}
-
 
 **Behavior**
 1. Initialize GPIO, LCD, and keypad
@@ -48,9 +44,6 @@ The system was **designed and validated entirely using Proteus 8 Professional**,
 
 ##  Simulation & Results
 
-::contentReference[oaicite:2]{index=2}
-
-
 - HEX file generated using STM32CubeIDE
 - Loaded into STM32 component in Proteus
 - Correct keypad detection and LCD updates
@@ -59,6 +52,7 @@ The system was **designed and validated entirely using Proteus 8 Professional**,
 ---
 
 ##  Tools & Technologies
+
 - STM32CubeIDE
 - STM32 HAL Library
 - Proteus 8 Professional
