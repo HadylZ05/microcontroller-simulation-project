@@ -20,15 +20,6 @@ The system was **designed and validated entirely using Proteus 8 Professional**,
 
 ---
 
-##  System Architecture
-
-**Peripherals Used**
-- LCD (GPIO – 4-bit mode)
-- Matrix Keypad (row/column scanning)
-- LED (GPIO output)
-
----
-
 ##  System Logic
 
 **Behavior**
@@ -39,15 +30,6 @@ The system was **designed and validated entirely using Proteus 8 Professional**,
    - If key = `'1'` → LED ON
    - Else → LED OFF
    - Apply debounce delay
-
----
-
-##  Simulation & Results
-
-- HEX file generated using STM32CubeIDE
-- Loaded into STM32 component in Proteus
-- Correct keypad detection and LCD updates
-- Stable LED control with no false triggers
 
 ---
 
